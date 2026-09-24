@@ -1,0 +1,17 @@
+[general]
+name=ARBOR
+qgisMinimumVersion=3.16
+description=Shihuahuaco (Dipteryx) tree crown detection
+version=1.1.0
+author=Xiaoqi Zhuang
+email=xzhuang5@sheffield.ac.uk
+about=ARBOR detects Shihuahuaco (Dipteryx) tree crowns in UAV orthomosaics. ONNX-only inference, with an English/Spanish interface.
+tracker=
+repository=
+hasProcessingProvider=yes
+tags=tree detection, remote sensing, deep learning, UAV, forestry
+homepage=
+category=Plugins
+icon=icon.png
+experimental=False
+deprecated=False
