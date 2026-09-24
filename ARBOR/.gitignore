@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+data/
+datasets/
+runs/
+*.pt
+*.onnx
+*.gpkg
+*.shp
+*.dbf
+*.shx
+*.tif
+*.tiff
+

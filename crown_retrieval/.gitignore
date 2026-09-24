@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+indexes/
+results/
+*.npy
+*.gpkg
+*.tif
+*.tiff
+*.pt
+

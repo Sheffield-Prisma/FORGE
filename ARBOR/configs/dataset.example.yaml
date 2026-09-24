@@ -1,0 +1,22 @@
+# Copy this file to configs/dataset.local.yaml and replace all placeholders.
+# Raw imagery and annotations must remain outside the Git repository.
+output_dir: /path/to/Shihuahuaco_v2
+shapefile_2023: /path/to/copas_2023_condatos_vs2.shp
+shapefile_2025: /path/to/crowns_2025.shp
+tif_root_2023: /path/to/2023_orthomosaics
+tif_root_2025: /path/to/2025_orthomosaics
+
+species_field: NOMBRE_CIE
+target_species_substring: Dipteryx
+tile_size_m: 56.0
+overlap: 0.5
+output_pixels: 1024
+maximum_nodata_fraction: 0.30
+minimum_crown_fraction: 0.50
+negative_exclusion_fraction: 0.05
+include_centered_tiles: true
+negative_to_positive_ratio: 3.0
+hard_negative_fraction: 0.70
+jpeg_quality: 95
+seed: 42
+

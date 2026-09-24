@@ -1,0 +1,39 @@
+dataset_root: /path/to/OSR_dataset
+artifacts_dir: artifacts
+
+known_classes:
+  - COPAIBA
+  - CUMARU
+  - GARAPA
+  - MANITE
+  - PINHO
+unknown_classes:
+  - CAUCHO
+  - CASTANHEIRA
+  - CEDRO
+  - MACARANDUBA
+  - TAUARI
+  - TAXI
+
+seed: 42
+image_size: 224
+known_confidence: 0.45
+unknown_confidence: 0.55
+test_tif_fraction: 0.20
+train_cap_per_class_year: 300
+unknown_test_cap_per_class_year: 200
+crop_padding_ratio: 0.20
+
+batch_size: 32
+num_workers: 4
+stage1_epochs: 25
+stage1_learning_rate: 0.001
+stage2_epochs: 20
+stage2_learning_rate: 0.00001
+unfrozen_blocks: 4
+early_stopping_patience: 10
+supcon_weight: 0.5
+supcon_temperature: 0.1
+knn_k: 5
+covariance_regularization: 0.000001
+

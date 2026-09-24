@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "crown-retrieval"
+version = "0.1.0"
+description = "DINOv2 cosine-similarity retrieval for georeferenced tree crown candidates."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "geopandas>=0.14",
+  "matplotlib>=3.7",
+  "numpy>=1.24",
+  "pandas>=2.0",
+  "Pillow>=10.0",
+  "rasterio>=1.3",
+  "scikit-learn>=1.3",
+  "seaborn>=0.13",
+  "torch>=2.1",
+  "torchvision>=0.16",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+

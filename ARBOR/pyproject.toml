@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "forge-shihuahuaco-yolo"
+version = "0.1.0"
+description = "Single-class YOLO segmentation for Shihuahuaco tree crowns."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "geopandas>=0.14",
+  "numpy>=1.24",
+  "opencv-python>=4.8",
+  "pandas>=2.0",
+  "PyYAML>=6.0",
+  "rasterio>=1.3",
+  "shapely>=2.0",
+  "ultralytics>=8.4",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
