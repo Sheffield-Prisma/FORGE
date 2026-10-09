@@ -135,7 +135,6 @@ python -m forge_yolo.crown_metrics \
   --output crown_metrics.json
 ```
 
-This computes one-to-one polygon matches and combined precision, recall, and F1. It does not perform inference; the report's terminal inference implementation is intentionally out of scope.
 
 
 
