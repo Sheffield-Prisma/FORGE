@@ -4,7 +4,6 @@ This repository groups three related research modules for analysing Amazonian tr
 
 | Module            | Purpose                                                      |
 | ----------------- | ------------------------------------------------------------ |
-| `ARBOR`           | Single-class YOLO-seg detection and segmentation of Shihuahuaco (*Dipteryx*) crowns. Includes dataset construction, training, and held-out validation. |
+| `ARBOR`           | Single-class YOLO-seg detection and segmentation of Shihuahuaco (*Dipteryx*) crowns. Includes dataset construction, training, and held-out validation. Download [`model.onnx` from Google Drive](https://drive.google.com/file/d/1oK68TbRqTrBFNGFEvsXkpdY2FWkfZ-1B/view?usp=drive_link). |
 | `crown_retrieval` | DINOv2 feature extraction and cosine-similarity retrieval for georeferenced crown candidates. Builds a reusable feature index and exports ranked results for QGIS. |
 | `OSR`             | Multi-species open-set recognition research. Trains a DINOv2 classifier for five known species and evaluates rejection of six held-out unknown species. |
-
